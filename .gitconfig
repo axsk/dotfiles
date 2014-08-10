@@ -1,0 +1,11 @@
+[http]
+	sslCAInfo = /home/Alex/certs/cacert.pem
+[user]
+	email = smartmind23@googlemail.com
+	name = Alex
+[color]
+	ui = true
+[log]
+	abbrevCommit = true
+[status]
+	showuntrackedfiles = no
