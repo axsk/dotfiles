@@ -1,1 +1,5 @@
-/home/Alex/dotfiles/.vimrc
+set number
+set hls
+syntax on
+set background=dark
+
