@@ -1,5 +1,3 @@
-[http]
-	sslCAInfo = /home/Alex/certs/cacert.pem
 [user]
 	email = smartmind23@googlemail.com
 	name = Alex
