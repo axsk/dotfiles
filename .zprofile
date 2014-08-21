@@ -1,1 +1,0 @@
-/home/Alex/.zprezto/runcoms/zprofile
