@@ -6,6 +6,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chriskempson/base16-vim'
+Plugin 'morhetz/gruvbox'
 call vundle#end()
 filetype plugin indent on 
 " :PluginList       - lists configured plugins
@@ -26,4 +27,4 @@ set softtabstop=4
 let base16colorspace=256 "make sure using a base16-shell terminal colorspace, before colorscheme def
 let g:base16_shell_path="$HOME/.colors/base16-shell"
 set background=dark
-colorscheme base16-default
+colorscheme gruvbox
