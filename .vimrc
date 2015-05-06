@@ -21,6 +21,7 @@ set backspace=indent,eol,start
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set cursorline
 
 "" COLOR SETTINGS
 "set t_Co=256 "256 color support, should be detected by correct $TERM
