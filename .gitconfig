@@ -1,9 +1,9 @@
 [user]
 	email = smartmind23@googlemail.com
-	name = Alex
+	name = axsk
 [color]
 	ui = true
 [log]
 	abbrevCommit = true
 [status]
-	showuntrackedfiles = no
+#	showuntrackedfiles = no
