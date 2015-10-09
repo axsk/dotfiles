@@ -1,0 +1,1 @@
+/home/mi/asik/.zprezto/runcoms/zshrc

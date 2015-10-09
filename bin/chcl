@@ -1,0 +1,5 @@
+#!/bin/bash
+
+COLORS=$(ls ~/.colors/base16-shell/*$1*.sh | shuf -n1)
+source $COLORS
+echo "Colortheme $COLORS"
