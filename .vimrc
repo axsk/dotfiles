@@ -16,11 +16,13 @@ Plug 'chriskempson/base16-vim'
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'guns/vim-clojure-static'
-Plug 'vim-scripts/paredit.vim'
+"Plug 'vim-scripts/paredit.vim'
 "Plug 'tpope/vim-surround'
 "Plug 'venantius/vim-cljfmt'
 "Plug 'guns/vim-sexp'
 "Plug 'tpope/vim-sexp-mappings-for-regular-people'
+
+Plug 'tpope/vim-sleuth'
 
 call plug#end()
 
