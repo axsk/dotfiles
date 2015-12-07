@@ -13,10 +13,16 @@ fi
 # Customize to your needs...
 
 alias lg="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
 alias ls="ls -h -Cw 74"
 alias la="ls -la"
 
-BACKGROUND=dark
-COLORSCHEME=$(ls ~/.colors/base16-shell/*$BACKGROUND.sh | shuf -n1)
-source $COLORSCHEME
-echo "Colortheme $COLROSCHEME"
+
+path=("$HOME/bin" $path)
+if [[ -e bin/$(hostname) ]]; then
+  path=("$HOME/bin/$(hostname)" $path)
+fi
+
+chcl dark
+
+alias tmux="tmux attach || tmux -2"
