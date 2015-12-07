@@ -7,3 +7,5 @@
 	abbrevCommit = true
 [status]
 #	showuntrackedfiles = no
+[push]
+	default = simple
