@@ -6,7 +6,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/seoul256.vim'
 Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
-
+Plug 'fholgado/minibufexpl.vim'
 "Plug 'junegunn/vim-easy-align'
 "Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 "Plug 'fholgado/minibufexpl.vim'
