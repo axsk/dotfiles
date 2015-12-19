@@ -48,3 +48,10 @@ set showcmd
 
 " automatically remove trailing whitespace on clj files
 autocmd FileType clojure autocmd BufWritePre * :%s/\s\+$//e
+
+" prevent escape from moving cursor one character to the left
+" http://bit.ly/1MncKVP
+let CursorColumnI = 0 "the cursor column position in INSERT
+autocmd InsertEnter * let CursorColumnI = col('.')
+autocmd CursorMovedI * let CursorColumnI = col('.')
+autocmd InsertLeave * if col('.') != CursorColumnI | call cursor(0, col('.')+1) | endif
