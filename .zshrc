@@ -12,7 +12,7 @@ fi
 
 # Customize to your needs...
 
-setopt nomenucomplete, autolist, automenu
+setopt nomenucomplete autolist automenu nolistambiguous
 
 alias lg="git log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
@@ -21,9 +21,9 @@ alias la="ls -la"
 
 
 path=("$HOME/bin" $path)
-if [[ -e $HOME/bin/$(hostname) ]]; then
-  path=("$HOME/bin/$(hostname)" $path)
-fi
+#if [[ -e $HOME/bin/$(hostname) ]]; then
+#  path=("$HOME/bin/$(hostname)" $path)
+#fi
 
 chcl dark
 

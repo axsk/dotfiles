@@ -6,16 +6,19 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/seoul256.vim'
 Plug 'morhetz/gruvbox'
 Plug 'chriskempson/base16-vim'
+
 Plug 'fholgado/minibufexpl.vim'
 "Plug 'junegunn/vim-easy-align'
 "Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 "Plug 'fholgado/minibufexpl.vim'
 "Plug 'tpope/vim-fugitive'
 
+Plug 'JuliaLang/julia-vim'
+
 " Clojure
-Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-Plug 'kien/rainbow_parentheses.vim'
-Plug 'guns/vim-clojure-static'
+" Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+" Plug 'kien/rainbow_parentheses.vim'
+" Plug 'guns/vim-clojure-static'
 "Plug 'vim-scripts/paredit.vim'
 "Plug 'tpope/vim-surround'
 "Plug 'venantius/vim-cljfmt'
