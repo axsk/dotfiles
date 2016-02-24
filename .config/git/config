@@ -9,3 +9,8 @@
 #	showuntrackedfiles = no
 [push]
 	default = simple
+[url "https://github.com/"]
+	insteadOf = git://github.com/
+
+[diff "ipynb"]
+	textconv = "nbfilter"

@@ -1,0 +1,15 @@
+#!/bin/sh
+jq -r 'def banner: "# \(.) " + (28-(.|length))*"-";
+def size: "\([..|strings|length]|add|./1000)k";
+("Non-cell info" | banner), del(.cells), "",
+(.cells[] |  ("\(.cell_type) cell" | banner),
+	     "\(.source|add)",
+	     if ($show_output == "1") then
+                 "",
+		 ( select(.cell_type=="code" and (.outputs|length)>0) |
+	           ("output (\(size))"| banner),
+		   ""
+		 )
+              else ""
+	      end
+)' "$@" --arg show_output 1
