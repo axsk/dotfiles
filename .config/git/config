@@ -5,12 +5,14 @@
 	ui = true
 [log]
 	abbrevCommit = true
-[status]
-#	showuntrackedfiles = no
 [push]
 	default = simple
-[url "https://github.com/"]
-	insteadOf = git://github.com/
 
+[url "https://github.com"] # to allow julia Pkg.update() behind firewalls
+	insteadOf = git://github.com
+[credential "https://github.com"]
+	username = "axsk"
 [diff "ipynb"]
 	textconv = "nbfilter"
+[credential]
+	helper = cache
