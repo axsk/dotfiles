@@ -10,5 +10,5 @@ if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
-path=("$HOME/bin" $path)
+path=($HOME/bin $HOME/bin/conda $path)
 export LANG='en_US.UTF-8'
