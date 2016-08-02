@@ -44,7 +44,7 @@ set wildmode=longest:full,full
 let base16colorspace=256 "enable this if using a base16-shell terminal colorspace
 let g:base16_shell_path="$HOME/.colors/base16-shell" "for changing shell colors accordingly
 set background=dark
-colorscheme gruvbox
+"colorscheme gruvbox
 
 set backspace=indent,eol,start
 set showcmd

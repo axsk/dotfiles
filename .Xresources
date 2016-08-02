@@ -9,9 +9,11 @@
 !urxvt.scrollBar: false
 !Xcursor.theme: Breeze Obsidian
 
-URxvt.saveLines: 10000
-URxvt.scrollBar: false
 URxvt.foreground: white
 URxvt.background: black
+URxvt.saveLines: 10000
+URxvt.scrollBar: false
 URxvt.secondaryScroll: true
 URxvt.font: xft:BitstreamVera Sans Mono:pixelsize=12
+URxvt.termName: xterm-256color
+URxvt.letterSpace: -1
